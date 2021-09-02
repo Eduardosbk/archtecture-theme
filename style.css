@@ -1,3 +1,5 @@
+/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +33,8 @@ body.active .contact {
   filter: blur(6px);
   transition: all 0.3s;
 }
+
+/* Loading spinner*/
 
 .spinner-container {
   position: absolute;
@@ -156,6 +160,8 @@ body.active .contact {
   display: block;
 }
 
+/* Menu */
+
 .hamburguer-menu {
   width: 3rem;
   height: 3rem;
@@ -196,6 +202,8 @@ body.active .contact {
   transform: rotate(-45deg) translate(0.3rem, -0.8rem);
 }
 
+/* Header */
+
 .header {
   width: 100%;
   height: 100vh;
@@ -227,6 +235,8 @@ body.active .contact {
     transform: scale(1);
   }
 }
+
+/* Banner*/
 
 .banner {
   position: absolute;
@@ -288,6 +298,8 @@ body.active .contact {
   }
 }
 
+/* Sidebar */
+
 .sidebar {
   width: 40rem;
   height: 100vh;
@@ -302,6 +314,8 @@ body.active .contact {
 .change .sidebar {
   right: 0;
 }
+
+/* Menu */
 
 .menu {
   position: absolute;
@@ -337,6 +351,8 @@ body.active .contact {
   width: 100%;
 }
 
+/* Social medias*/
+
 .social-media {
   position: absolute;
   bottom: 3rem;
@@ -362,6 +378,8 @@ body.active .contact {
 .social-media i:hover {
   background: #c29525;
 }
+
+/* About us*/
 
 .about-us {
   width: 100%;
@@ -472,6 +490,8 @@ body.active .contact {
   opacity: 0.8;
 }
 
+/* Team */
+
 .team {
   display: flex;
   flex-direction: column;
@@ -570,6 +590,8 @@ body.active .contact {
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
+
+/* Contact */
 
 .contact {
   width: 100%;
@@ -691,6 +713,8 @@ body.active .contact {
   filter: brightness(0.9);
 }
 
+/* Footer */
+
 .footer {
   display: flex;
   justify-content: center;
@@ -747,6 +771,8 @@ body.active .contact {
   opacity: 0.9;
 }
 
+/* Media queries brackpoint 1500px */
+
 @media (max-width: 1500px) {
   .about-us-img-wrapper {
     grid-row: 3 / -1;
@@ -765,6 +791,8 @@ body.active .contact {
     width: 80%;
   }
 }
+
+/* Media queries breackpoint 1400px */
 
 @media (max-width: 1400px) {
   .banner h1 {
@@ -811,6 +839,8 @@ body.active .contact {
   }
 }
 
+/* Media queries breackpoint 1300px*/
+
 @media (max-width: 1300px) {
   .team {
     padding-bottom: 5rem;
@@ -839,6 +869,8 @@ body.active .contact {
     margin: 2rem 0;
   }
 }
+
+/* Media queries breackpoint 1000px */
 
 @media (max-width: 1000px) {
   .banner h1 {
@@ -910,6 +942,8 @@ body.active .contact {
   }
 }
 
+/* Media queries breackpoint 700px */
+
 @media (max-width: 700px) {
   .banner {
     font-size: 4rem;
@@ -932,6 +966,8 @@ body.active .contact {
     width: 35rem;
   }
 }
+
+/* Media queries breackpoint 500px */
 
 @media (max-width: 500px) {
   html {
