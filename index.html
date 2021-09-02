@@ -14,7 +14,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:wght@300;400;500;600;700&family=Mulish:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <title>Archtect Website</title>
+  <title>Website de Arquitetura</title>
 </head>
 
 <body>
@@ -45,19 +45,22 @@
       <div class="banner">
         <h1>Arquitetura e design de interiores</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <button>Discover now</button>
+        <button>Explorar</button>
       </div>
     </header>
 
     <section class="sidebar">
       <ui class="menu">
-        <li class="munu-item"><a onClick="closeMenu()" href="#header" data-content="Home" class=" menu-link">Home</a>
+        <li class="munu-item"><a onClick="closeMenu()" href="#header" data-content="Início"
+            class=" menu-link">Início</a>
         </li>
-        <li class="munu-item"><a onClick="closeMenu()" href="#about-us" data-content="About Us" class=" menu-link">About
-            Us</a></li>
-        <li class="munu-item"><a onClick="closeMenu()" href="#team" data-content="Team" class="menu-link">Team</a></li>
-        <li class="munu-item"><a onClick="closeMenu()" href="#contact" data-content="Contact"
-            class=" menu-link">Contact</a></li>
+        <li class="munu-item"><a onClick="closeMenu()" href="#about-us" data-content="Sobre Nós"
+            class=" menu-link">Sobre
+            Nós</a></li>
+        <li class="munu-item"><a onClick="closeMenu()" href="#team" data-content="Equipe" class="menu-link">Equipe</a>
+        </li>
+        <li class="munu-item"><a onClick="closeMenu()" href="#contact" data-content="Contato"
+            class=" menu-link">Contato</a></li>
       </ui>
       <div class="social-media">
         <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -69,7 +72,7 @@
 
     <section class="about-us" id="about-us">
       <div class="section-header">
-        <h1 class="section-heading">About Us</h1>
+        <h1 class="section-heading">Sobre Nós</h1>
         <div class="underline"></div>
       </div>
 
@@ -104,7 +107,7 @@
         <div class="service">
           <div class="service-header">
             <i class="fas fa-paint-brush"></i>
-            <h3>Decoration</h3>
+            <h3>Decoração</h3>
           </div>
           <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, veritatis illum fugiat
             ad reprehenderit pariatur necessitatibus laborum.consectetur adipisicing elit.</p>
@@ -113,7 +116,7 @@
         <div class="service">
           <div class="service-header">
             <i class="fas fa-ruler-combined"></i>
-            <h3>Planning</h3>
+            <h3>Planejamento</h3>
           </div>
           <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, veritatis illum fugiat
             ad reprehenderit pariatur necessitatibus laborum.consectetur adipisicing elit.</p>
@@ -122,7 +125,7 @@
         <div class="service">
           <div class="service-header">
             <i class="far fa-building"></i>
-            <h3>Execution</h3>
+            <h3>Execução</h3>
           </div>
           <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, veritatis illum fugiat
             ad reprehenderit pariatur necessitatibus laborum.consectetur adipisicing elit.</p>
@@ -136,11 +139,11 @@
 
     <section class="team" id="team">
       <div class="section-header">
-        <h1 class="section-heading">Our Team</h1>
+        <h1 class="section-heading">Nossa Equipe</h1>
         <div class="underline"></div>
       </div>
       <div class="cards-wrapper">
-        <div class="card js-tilt">
+        <div class="card js-tilt" data-tilt>
           <div class="card-img-wrapper">
             <img
               src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2VvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -151,11 +154,11 @@
             <h3>CEO</h3>
             <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis modi maiores consequuntur labore
               eos illo!"</p>
-            <button>Read More</button>
+            <button>Saiba mais</button>
           </div>
         </div>
 
-        <div class="card js-tilt">
+        <div class="card js-tilt" data-tilt>
           <div class="card-img-wrapper">
             <img
               src="https://images.unsplash.com/photo-1598387746216-506f6bd47aad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGRlc2lnbmVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -166,11 +169,11 @@
             <h3>Designer</h3>
             <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis modi maiores consequuntur labore
               eos illo!"</p>
-            <button>Read More</button>
+            <button>Saiba mais</button>
           </div>
         </div>
 
-        <div class="card js-tilt">
+        <div class="card js-tilt" data-tilt>
           <div class="card-img-wrapper">
             <img
               src="https://images.unsplash.com/photo-1573496130008-8e64ffcf42f3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzh8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -181,7 +184,7 @@
             <h3>Arquiteta</h3>
             <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis modi maiores consequuntur labore
               eos illo!"</p>
-            <button>Read More</button>
+            <button>Saiba mais</button>
           </div>
         </div>
 
@@ -192,11 +195,11 @@
       <div class="contact-wrapper">
         <div class="contact-left"></div>
         <div class="contact-right">
-          <h1 class="contact-heading">Contact</h1>
+          <h1 class="contact-heading">Contato</h1>
           <form>
             <div class="input-group">
               <input type="text" class="field">
-              <label class="input-label">Full Name</label>
+              <label class="input-label">Nome Completo</label>
             </div>
 
             <div class="input-group">
@@ -205,9 +208,9 @@
             </div>
             <div class="input-group">
               <textarea class="field"></textarea>
-              <label class="message">Message</label>
+              <label class="message">Mensagem</label>
             </div>
-            <button class="btn">Submit</button>
+            <button class="btn">Enviar</button>
           </form>
         </div>
       </div>
