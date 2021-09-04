@@ -5,8 +5,6 @@ window.onload = () => {
   }, 1000);
 };
 
-
-
 document.querySelector('.hamburguer-menu').addEventListener('click', () => {
   document.querySelector('.container').classList.toggle('change');
   document.querySelector('body').classList.toggle('active');
@@ -16,3 +14,5 @@ function closeMenu() {
   document.querySelector('.container').classList.toggle('change');
   document.querySelector('body').classList.remove('active');
 };
+
+
