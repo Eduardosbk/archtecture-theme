@@ -4,14 +4,10 @@ Practicing html, css and js with a fictional template about archtecture
 <p>Aprendi muito CSS com esse projeto, utilizamos bastante flexbox e grid que inclusive já
 sabia que podiam ser usados juntos mas nunca tinha colocado em prática</p><br>
 
-<h2 align="center">
-<img align="center" width="200px" src="https://github.com/Eduardosbk/archtecture-theme/blob/main/photo.jpg">
-</h2><br>
-
-<img align="center" width="1920px" src="https://github.com/Eduardosbk/pizzaplanet/blob/main/pizza.png"><br>
+<img align="center" width="1920px" src="https://github.com/Eduardosbk/archtecture-theme/blob/main/photo.jpg"><br>
 
 <h1>
-  <img src="https://github.com/Eduardosbk/pizzaplanet/blob/main/pizza.gif">
+  <img src="https://github.com/Eduardosbk/archtecture-theme/blob/main/archtecture.gif">
 </h1><br><hr>
 
 <h1>🧪 Technologies</h1>
