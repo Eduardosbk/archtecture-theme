@@ -14,5 +14,3 @@ function closeMenu() {
   document.querySelector('.container').classList.toggle('change');
   document.querySelector('body').classList.remove('active');
 };
-
-
