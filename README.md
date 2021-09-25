@@ -1,8 +1,10 @@
 # Archtecture theme for study
 Practicing html, css and js with a fictional template about archtecture
 <hr>
-<p>Aprendi muito CSS com esse projeto, utilizamos bastante flexbox e grid que inclusive já
-sabia que podiam ser usados juntos mas nunca tinha colocado em prática</p><br>
+<h1>Praticando e aprimorando</h1>
+<p>-CSS Grid</p><br>
+<p>-CSS Flexbox</p><br>
+<p>-CSS Animation</p><br>
 
 <img align="center" width="1920px" src="https://github.com/Eduardosbk/archtecture-theme/blob/main/photo.jpg"><br>
 
