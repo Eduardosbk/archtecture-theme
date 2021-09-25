@@ -1,5 +1,5 @@
 # Archtecture theme for study
-Practicing html, css and js with a fictional template about archtecture
+Praticando html, css e js com esse projeto com tema fictício sobre arquitetura
 <hr>
 <h1>Praticando e aprimorando</h1>
 <p>-CSS Grid</p><br>
