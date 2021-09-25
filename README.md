@@ -1,4 +1,4 @@
-# archtecture-theme
+# Archtecture theme for study
 Practicing html, css and js with a fictional template about archtecture
 <hr>
 <p>Aprendi muito CSS com esse projeto, utilizamos bastante flexbox e grid que inclusive já
